@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  hallo-world:
+    build: .
+    image: hallo-world:latest
+    container_name: hallo-world
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+
+
