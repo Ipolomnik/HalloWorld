@@ -6,7 +6,7 @@ services:
     image: hallo-world:latest
     container_name: hallo-world
     ports:
-      - "8081:80"
+      - "80:80"
     restart: unless-stopped
 
 
